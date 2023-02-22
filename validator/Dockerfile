@@ -18,7 +18,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-FROM python:alpine3.13
+FROM python:alpine3.13@sha256:93eb0ba98b15791a071ec8bce2483e670e52c83af51962d3255b4f8f93b52d24
 LABEL maintainer="Paolo Smiraglia <paolo.smiraglia@gmail.com>"
 
 RUN pip install -U pip
